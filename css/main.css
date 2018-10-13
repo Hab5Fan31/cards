@@ -1,5 +1,8 @@
 html {
   box-sizing: border-box;
+  background-color: #f2f2f2;
+  font-family: georgia, serif;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
@@ -25,6 +28,11 @@ html {
 }
 
 .cards img {
+  display: block;
+  margin: 0 auto 1rem;
+}
+
+.cards strong {
   display: block;
   margin-bottom: 1rem;
   font-size: 1.125rem;
